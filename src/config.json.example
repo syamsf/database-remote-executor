@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "database-remote-commander"
+  },
+  "web": {
+    "prefork": false,
+    "port": 3000
+  },
+  "log": {
+    "level": 6
+  },
+  "database": {
+    "type": "nosql",
+    "username": "username",
+    "password": "password",
+    "host": "host",
+    "port": port,
+    "name": "dbname"
+  },
+  "auth": {
+    "header_key": "randomstring"
+  }
+}

@@ -1,0 +1,10 @@
+.idea
+.vscode
+.DS_Store
+src/bin/*
+.env
+src/.env
+src/go.sum
+!src/bin/.gitkeep
+src/tmp/*
+src/config.json
